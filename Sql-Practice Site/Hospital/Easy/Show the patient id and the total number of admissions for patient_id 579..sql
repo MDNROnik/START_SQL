@@ -1,0 +1,1 @@
+SELECT patient_id, count(*) FROM admissions where patient_id = 579
