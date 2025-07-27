@@ -1,0 +1,1 @@
+SELECT category_name, description FROM categories order by category_name;
