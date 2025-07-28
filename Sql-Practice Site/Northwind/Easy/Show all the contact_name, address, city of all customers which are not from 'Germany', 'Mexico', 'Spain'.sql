@@ -1,0 +1,1 @@
+SELECT contact_name, address, city FROM customers where country not in ('Germany', 'Mexico','Spain');
