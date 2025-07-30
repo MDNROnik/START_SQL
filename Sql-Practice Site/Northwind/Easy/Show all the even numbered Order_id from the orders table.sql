@@ -1,0 +1,1 @@
+SELECT order_id FROM orders where MOD(order_id,2) = 0 ;
