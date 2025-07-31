@@ -1,0 +1,1 @@
+SELECT city, company_name, contact_name FROM customers where city like '%L%' order by contact_name;
