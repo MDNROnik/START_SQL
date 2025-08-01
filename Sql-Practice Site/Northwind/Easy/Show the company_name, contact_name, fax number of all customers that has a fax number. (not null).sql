@@ -1,0 +1,1 @@
+SELECT company_name, contact_name, fax FROM customers where fax is not null
