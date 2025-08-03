@@ -1,0 +1,1 @@
+SELECT round( avg( unit_price ),2 ), sum(units_in_stock), sum(discontinued) FROM products
