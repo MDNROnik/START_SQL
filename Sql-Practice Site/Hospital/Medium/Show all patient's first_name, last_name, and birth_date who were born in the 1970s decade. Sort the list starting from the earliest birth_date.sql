@@ -1,0 +1,1 @@
+select first_name, last_name, birth_date from patients where year(birth_date)<=1979 and year(birth_date)>=1970 order by birth_date
