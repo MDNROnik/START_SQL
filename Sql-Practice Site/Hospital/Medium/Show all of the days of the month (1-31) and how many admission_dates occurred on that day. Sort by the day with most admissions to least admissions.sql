@@ -1,0 +1,1 @@
+select day(admission_date), count(*) as total from admissions group by day(admission_date) order by total desc
