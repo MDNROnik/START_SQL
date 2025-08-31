@@ -1,0 +1,1 @@
+select first_name, last_name, (select count(*) from admissions where doctor_id = attending_doctor_id ) from doctors
